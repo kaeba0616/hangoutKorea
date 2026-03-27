@@ -108,27 +108,6 @@ class MyProfileScreen extends StatelessWidget {
           ),
         ),
       ),
-      // Bottom Navigation
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 3,
-        type: BottomNavigationBarType.fixed,
-        selectedItemColor: const Color(0xFF1A1A1A),
-        unselectedItemColor: const Color(0xFF9CA3AF),
-        backgroundColor: Colors.white,
-        elevation: 0,
-        selectedFontSize: 11.sp,
-        unselectedFontSize: 11.sp,
-        items: const [
-          BottomNavigationBarItem(
-              icon: Icon(Icons.home_outlined), label: '홈'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.search), label: '검색'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.chat_bubble_outline), label: '채팅'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.person_outline), label: '프로필'),
-        ],
-      ),
     );
   }
 }
