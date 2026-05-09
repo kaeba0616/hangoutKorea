@@ -1,0 +1,19 @@
+import Svg, { Path } from 'react-native-svg';
+import { colors } from '@/constants/theme';
+
+type Props = { size?: number; color?: string };
+
+export function ArrowLeft({ size = 24, color = colors.text.primary }: Props) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24">
+      <Path
+        d="M15 6L9 12L15 18"
+        stroke={color}
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        fill="none"
+      />
+    </Svg>
+  );
+}
