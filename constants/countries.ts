@@ -1,0 +1,50 @@
+export type Country = {
+  code: string;
+  nameKo: string;
+  nameEn: string;
+  flagEmoji: string;
+};
+
+export const COUNTRIES: Country[] = [
+  { code: 'KR', nameKo: '대한민국', nameEn: 'South Korea', flagEmoji: '🇰🇷' },
+  { code: 'JP', nameKo: '일본', nameEn: 'Japan', flagEmoji: '🇯🇵' },
+  { code: 'CN', nameKo: '중국', nameEn: 'China', flagEmoji: '🇨🇳' },
+  { code: 'US', nameKo: '미국', nameEn: 'United States', flagEmoji: '🇺🇸' },
+  { code: 'GB', nameKo: '영국', nameEn: 'United Kingdom', flagEmoji: '🇬🇧' },
+  { code: 'DE', nameKo: '독일', nameEn: 'Germany', flagEmoji: '🇩🇪' },
+  { code: 'FR', nameKo: '프랑스', nameEn: 'France', flagEmoji: '🇫🇷' },
+  { code: 'ES', nameKo: '스페인', nameEn: 'Spain', flagEmoji: '🇪🇸' },
+  { code: 'IT', nameKo: '이탈리아', nameEn: 'Italy', flagEmoji: '🇮🇹' },
+  { code: 'CA', nameKo: '캐나다', nameEn: 'Canada', flagEmoji: '🇨🇦' },
+  { code: 'AU', nameKo: '호주', nameEn: 'Australia', flagEmoji: '🇦🇺' },
+  { code: 'NZ', nameKo: '뉴질랜드', nameEn: 'New Zealand', flagEmoji: '🇳🇿' },
+  { code: 'SG', nameKo: '싱가포르', nameEn: 'Singapore', flagEmoji: '🇸🇬' },
+  { code: 'TH', nameKo: '태국', nameEn: 'Thailand', flagEmoji: '🇹🇭' },
+  { code: 'VN', nameKo: '베트남', nameEn: 'Vietnam', flagEmoji: '🇻🇳' },
+  { code: 'PH', nameKo: '필리핀', nameEn: 'Philippines', flagEmoji: '🇵🇭' },
+  { code: 'ID', nameKo: '인도네시아', nameEn: 'Indonesia', flagEmoji: '🇮🇩' },
+  { code: 'MY', nameKo: '말레이시아', nameEn: 'Malaysia', flagEmoji: '🇲🇾' },
+  { code: 'IN', nameKo: '인도', nameEn: 'India', flagEmoji: '🇮🇳' },
+  { code: 'TW', nameKo: '대만', nameEn: 'Taiwan', flagEmoji: '🇹🇼' },
+  { code: 'HK', nameKo: '홍콩', nameEn: 'Hong Kong', flagEmoji: '🇭🇰' },
+  { code: 'MX', nameKo: '멕시코', nameEn: 'Mexico', flagEmoji: '🇲🇽' },
+  { code: 'BR', nameKo: '브라질', nameEn: 'Brazil', flagEmoji: '🇧🇷' },
+  { code: 'AR', nameKo: '아르헨티나', nameEn: 'Argentina', flagEmoji: '🇦🇷' },
+  { code: 'RU', nameKo: '러시아', nameEn: 'Russia', flagEmoji: '🇷🇺' },
+  { code: 'UA', nameKo: '우크라이나', nameEn: 'Ukraine', flagEmoji: '🇺🇦' },
+  { code: 'PL', nameKo: '폴란드', nameEn: 'Poland', flagEmoji: '🇵🇱' },
+  { code: 'NL', nameKo: '네덜란드', nameEn: 'Netherlands', flagEmoji: '🇳🇱' },
+  { code: 'BE', nameKo: '벨기에', nameEn: 'Belgium', flagEmoji: '🇧🇪' },
+  { code: 'CH', nameKo: '스위스', nameEn: 'Switzerland', flagEmoji: '🇨🇭' },
+  { code: 'AT', nameKo: '오스트리아', nameEn: 'Austria', flagEmoji: '🇦🇹' },
+  { code: 'SE', nameKo: '스웨덴', nameEn: 'Sweden', flagEmoji: '🇸🇪' },
+  { code: 'NO', nameKo: '노르웨이', nameEn: 'Norway', flagEmoji: '🇳🇴' },
+  { code: 'DK', nameKo: '덴마크', nameEn: 'Denmark', flagEmoji: '🇩🇰' },
+  { code: 'FI', nameKo: '핀란드', nameEn: 'Finland', flagEmoji: '🇫🇮' },
+  { code: 'TR', nameKo: '튀르키예', nameEn: 'Türkiye', flagEmoji: '🇹🇷' },
+  { code: 'AE', nameKo: '아랍에미리트', nameEn: 'UAE', flagEmoji: '🇦🇪' },
+  { code: 'SA', nameKo: '사우디아라비아', nameEn: 'Saudi Arabia', flagEmoji: '🇸🇦' },
+  { code: 'EG', nameKo: '이집트', nameEn: 'Egypt', flagEmoji: '🇪🇬' },
+  { code: 'ZA', nameKo: '남아프리카공화국', nameEn: 'South Africa', flagEmoji: '🇿🇦' },
+  { code: 'NG', nameKo: '나이지리아', nameEn: 'Nigeria', flagEmoji: '🇳🇬' },
+];
